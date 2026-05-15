@@ -1,0 +1,17 @@
+.featured{
+  padding:80px 8%;
+  background:#F8FAFC;
+}
+
+.featured h1{
+  text-align:center;
+  margin-bottom:50px;
+  font-size:42px;
+  color:#111827;
+}
+
+.featured-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:30px;
+}

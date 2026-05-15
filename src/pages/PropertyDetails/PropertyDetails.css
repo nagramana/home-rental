@@ -1,0 +1,43 @@
+.details{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:40px;
+  padding:80px 8%;
+}
+
+.details img{
+  width:100%;
+  border-radius:20px;
+}
+
+.details-content h1{
+  font-size:42px;
+  margin-bottom:20px;
+}
+
+.details-content h2{
+  color:#2563EB;
+  margin-bottom:20px;
+}
+
+.details-content p{
+  line-height:1.7;
+  margin-bottom:30px;
+}
+
+.details-content button{
+  padding:15px 30px;
+  border:none;
+  background:#2563EB;
+  color:#fff;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+@media(max-width:768px){
+
+  .details{
+    grid-template-columns:1fr;
+  }
+
+}

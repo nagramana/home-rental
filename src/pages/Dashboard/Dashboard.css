@@ -1,0 +1,160 @@
+.owner-dashboard{
+
+  min-height:100vh;
+
+  padding:60px;
+
+  background:#f5f7fb;
+
+}
+
+.dashboard-top{
+
+  display:flex;
+
+  justify-content:space-between;
+
+  align-items:center;
+
+  margin-bottom:40px;
+
+}
+
+.dashboard-top h1{
+
+  font-size:42px;
+
+}
+
+.add-btn{
+
+  padding:14px 24px;
+
+  border:none;
+
+  border-radius:12px;
+
+  background:#2563eb;
+
+  color:#fff;
+
+  font-size:16px;
+
+  cursor:pointer;
+
+}
+
+.dashboard-grid{
+
+  display:grid;
+
+  grid-template-columns:
+  repeat(auto-fit,minmax(320px,1fr));
+
+  gap:30px;
+
+}
+
+.dashboard-card{
+
+  background:#fff;
+
+  border-radius:20px;
+
+  overflow:hidden;
+
+  box-shadow:0 10px 25px rgba(0,0,0,0.08);
+
+}
+
+.dashboard-card img{
+
+  width:100%;
+
+  height:220px;
+
+  object-fit:cover;
+
+}
+
+.dashboard-content{
+
+  padding:20px;
+
+}
+
+.dashboard-content h2{
+
+  margin-bottom:10px;
+
+}
+
+.dashboard-content p{
+
+  color:#666;
+
+  margin-bottom:15px;
+
+}
+
+.dashboard-content h3{
+
+  color:#16a34a;
+
+  margin-bottom:20px;
+
+}
+
+.dashboard-buttons{
+
+  display:flex;
+
+  gap:10px;
+
+}
+
+.view-btn{
+
+  flex:1;
+
+  padding:12px;
+
+  border:none;
+
+  border-radius:10px;
+
+  background:#2563eb;
+
+  color:#fff;
+
+  cursor:pointer;
+
+}
+
+.delete-btn{
+
+  flex:1;
+
+  padding:12px;
+
+  border:none;
+
+  border-radius:10px;
+
+  background:#ef4444;
+
+  color:#fff;
+
+  cursor:pointer;
+
+}
+
+.empty-box{
+
+  width:100%;
+
+  text-align:center;
+
+  margin-top:100px;
+
+}
